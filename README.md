@@ -1,8 +1,8 @@
-# 🛒 Customer Purchase Propensity — Data Cleaning & Feature Engineering Pipeline
+# Customer Purchase Propensity — Data Cleaning & Feature Engineering Pipeline
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds a **complete data preprocessing and feature engineering pipeline** for an e-commerce company. The goal is to clean, transform, and engineer meaningful features from raw, multi-source data so that a Machine Learning model can later predict **whether a customer will make a purchase** (binary classification: `purchased = 1` or `0`).
 
@@ -10,7 +10,7 @@ This project builds a **complete data preprocessing and feature engineering pipe
 
 ---
 
-## 🧩 Data Sources
+## Data Sources
 
 | Source | File | Description |
 |--------|------|-------------|
@@ -23,23 +23,23 @@ This project builds a **complete data preprocessing and feature engineering pipe
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
-📦 customer-purchase-propensity/
-├── 📓 DataPreprocessing.ipynb      ← Main Jupyter Notebook (all 10 steps)
-├── 📊 processed_customer_data.csv  ← Final cleaned & feature-engineered dataset
-├── 📄 Summary_Report.docx          ← 1-page summary report
-├── 📂 data/
+ customer-purchase-propensity/
+├──  DataPreprocessing.ipynb      ← Main Jupyter Notebook (all 10 steps)
+├──  processed_customer_data.csv  ← Final cleaned & feature-engineered dataset
+├──  Summary_Report.docx          ← 1-page summary report
+├──  data/
 │   ├── customers.csv
 │   ├── transactions.json
 │   └── products.sql
-└── 📖 README.md                    ← This file
+└──  README.md                    ← This file
 ```
 
 ---
 
-## 🔬 Pipeline Steps (All 10 Covered)
+## Pipeline Steps (All 10 Covered)
 
 ### Step 1 — Project Planning & Problem Framing
 - What is Data Analysis & steps in a DS project
@@ -102,7 +102,7 @@ This project builds a **complete data preprocessing and feature engineering pipe
 
 ---
 
-## 📊 Final Dataset Stats
+## Final Dataset Stats
 
 | Metric | Value |
 |--------|-------|
@@ -114,7 +114,7 @@ This project builds a **complete data preprocessing and feature engineering pipe
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Library | Purpose |
 |---------|---------|
@@ -129,7 +129,7 @@ This project builds a **complete data preprocessing and feature engineering pipe
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # 1. Clone the repository
@@ -148,7 +148,7 @@ jupyter notebook DataPreprocessing.ipynb
 
 ---
 
-## 📋 Deliverables Checklist
+## Deliverables Checklist
 
 - [x] `DataPreprocessing.ipynb` — Python Notebook with all 10 steps
 - [x] `processed_customer_data.csv` — Final feature-engineered CSV (1,008 rows)
@@ -157,7 +157,7 @@ jupyter notebook DataPreprocessing.ipynb
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Project by:** [Nandish Patel]  
 **Role:** Data Analyst  
